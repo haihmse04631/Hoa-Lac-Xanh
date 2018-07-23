@@ -92,7 +92,7 @@ class AdminBlogs extends Component {
     )
   }
 }
-
+// mapStateToProps function
 const mapStateToProps = state => ({
   blogs: state.blogs.blogs
 });
