@@ -4,6 +4,7 @@ import {routeHistory} from '../../../store';
 import {actions as blogsActions} from '../../../reducers/blogs/actions';
 import toastr from 'toastr';
 import BlogPage from './BlogPage';
+// update blog 
 class UpdateBlog extends Component {
   constructor(props) {
     super(props);

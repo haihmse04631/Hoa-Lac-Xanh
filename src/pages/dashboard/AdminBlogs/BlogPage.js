@@ -24,7 +24,7 @@ class BlogPage extends Component {
             updateContent={this.props.updateContent} />}
             
           </div>
-          <button style={{width: '10%'}} disabled={this.props.loading} type="button" className="btn btn-success" 
+          <button style={{width: '10%'}} disabled={this.props.loading} type="button"  className="btn btn-success" 
           onClick={(event) => {this.props.saveBlog(event)}}>
             {this.props.loading ? "Đang lưu" : "Lưu"}
           </button>
